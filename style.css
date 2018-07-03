@@ -1,0 +1,384 @@
+*{
+    box-sizing: border-box;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+.row:after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+[class*="col-"]{
+    width: 100%;
+}
+body{
+    font-family: Open SanS;
+    margin: 0 auto;
+}
+.container{
+    margin: 0 auto;
+    text-align: center;
+    max-width: 1366px;
+}
+.header{
+    padding: 20px;
+    text-align: center;
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.demo{
+    padding-top: 350px;
+    padding-bottom: 350px;
+}
+.demo span{
+    font-size: 45px;
+}
+.demo .days{
+    color: #a1a9b0;
+}
+.demo p{
+    color: #8c9398;
+    font-size: 16px;
+}
+.learn-more{
+    background-color: #3dc9b3;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+.demo-template, .item{
+    text-align: center;
+    padding: 15px;
+}
+.demo-template p, .item .title{
+    font-weight: 600;
+    color: #494a4a;
+}
+.demo-template span{
+    color: #8c9398;
+}
+.demo-template .conse{
+    color: black;
+}
+.demo-template img, .item img{
+    padding-bottom: 10px;
+}
+.content-item div{
+    padding: 10px;
+}
+.content-item .short{
+    color: #494a4a;
+    font-weight: 600;
+}
+.item .fa{
+    background-color: #3dc9b3;
+    color: white;
+    font-size: 50px;
+    padding: 7%;
+    border-radius: 100%;
+}
+.content-item img:hover, .demo-template img:hover, .demo-design img:hover{
+    opacity: 0.5;
+}
+.remove-float{
+    clear: both;
+}
+.demo-design{
+    text-align: center;
+}
+.content-demo-design{
+    border: 5px solid #ffffff;
+}
+.content-demo-design .iphone{
+    max-width: 100%;
+    height: auto;
+    padding: 10px;
+}
+.content-demo-design .iphone5{
+    border: 2px solid;
+}
+.content-demo-design .short{
+    font-weight: 600;
+}
+.content-demo-design .long{
+    font-size: 18px;
+}
+.content-demo-design .iphone{
+    display: none;
+}
+
+.content-verbal-bug{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+}
+.content-verbal-bug .fa{
+    background-color: #3dc9b3;
+    font-size: 22px;
+    color: white;
+    padding: 1%;
+    border-radius: 100%;
+}
+.verbal-bug{
+    background-image: url(background2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-weight: 600;
+    width: 100%;
+    padding-bottom: 10px;
+    background-position: right;
+}
+.verbal-bug .first{
+    font-size: 40px;
+}
+
+.think .col-4{
+    position: relative;
+}
+.think .col-4 div{
+    width: 90%;
+    margin: 0 auto;
+}
+.think-first .first, .think-second .first, .think-third .first{
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    position: absolute;
+    top: 20px;
+    left: 5%;
+    z-index: 3;
+}
+.think-first .first{background-image: url(image1.png);}
+.think-second .first{background-image: url(image2.png);}
+.think-third .first{background-image: url(image3.png);}
+
+.think-first .second, .think-second .second, .think-third .second{
+    height: 200px;
+    padding-top: 90px;
+    color: white;
+    background-color: #399487;
+    position: absolute;
+    top: 20px;
+    left: 5%;
+    z-index: 2;
+}
+.think-first .third, .think-second .third, .think-third .third{
+    padding-top: 230px;
+}
+.think-first .first:hover, .think-second .first:hover, .think-third .first:hover, .think img:hover{
+    opacity: 0.6;
+}
+.icon-next-pg{
+    padding-top: 10px;
+}
+.ignite{
+    background-color: #242830;
+    height: 200px;
+    text-align: center;
+}
+.input-ignite{
+    padding: 2%;
+    margin-top: 80px;
+    border-color: white;
+    background-color: #242830;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+}
+.team{
+    text-align: center;
+}
+.team .col-4{
+    padding: 15px;
+}
+.team .name{
+    font-weight: 600;
+    color: #494a4a;
+}
+.team .verbal{
+    font-size: 19px;
+}
+.team .col-4 .fa{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 3%;
+    border-radius: 100%;
+}
+.team .col-4 .fa:hover{
+    background-color: #399487;
+}
+.team .image-person{
+    max-width: 100%;
+}
+.team img:hover{
+    opacity: 0.6;
+}
+.team .title{
+    font-weight: 600;
+}
+.subcribe{
+    text-align: center;
+    background-image:url(background3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 450px;
+    color: white;
+    font-weight: 600;
+    position: relative;
+}
+.subcribe input{
+    padding: 20px;
+    font-size: 20px;
+}
+.subcribe input[type="text"]{
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    color: white;
+}
+.subcribe input[type="submit"]{
+    font-weight: 600;
+    border: none;
+    opacity: 0.5;
+    background-color: #3dc9b3;
+    color: white;
+}
+.subcribe input[type="submit"]:hover{
+    opacity: 1;
+}
+.content-sub{
+    padding-top: 200px;
+}
+.content-sub a{
+    color: white;
+    background-color: #3dc9b3;
+    padding: 1%;
+    border-radius: 100%;
+    position: absolute;
+    z-index: 2;
+    top: 430px;
+    left: 49%;
+    opacity: 0.6;
+}
+.content-sub a:hover{
+    opacity: 1;
+}
+.contact{
+    text-align: center;
+    background-image: url(background4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    margin-top: 0px;
+}
+.content-contact{
+    text-align: center;
+    padding-top: 100px;
+}
+.contact .col-4{
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.content-address,.content-phone, .content-email{
+    width: 100%;
+    border: none;
+    background-color: white;
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+.content-address:hover,.content-phone:hover, .content-email:hover{
+    border-bottom: 2px solid #3dc9b3;
+}
+.contact-icon .fa{
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 1%;
+    border-radius: 100%;
+    background-color: black;
+    color: white;
+    margin-bottom: 20px;
+}
+.contact-icon .fa:hover{
+    background-color: #3dc9b3;
+}
+.contact img:hover{
+    opacity: 0.6;
+}
+.contact .title, .contact .item{
+    font-weight: 600;
+}
+.footer{
+    background-color: black;
+    padding: 20px;
+    color: #878e95
+}
+.footer .term:hover, .footer .legal:hover{
+    color: #3dc9b3;
+}
+@media screen and (min-width:768px){
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+    [class *="col-"]{
+        float: left;
+    }
+    .row:after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+    .demo-template{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .content-demo-design .iphone{
+        display:block;
+    }
+    .content-item{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .content-demo-design{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .think, .team{
+        padding: 0 90px;
+    }
+    .content-sub{
+        width: 30%;
+        margin: 0 auto;
+    }
+    .contact{
+        padding:0px 80px;
+        text-align: center;
+        margin-top: 450px;
+        height: 500px;
+    }
+
+}
